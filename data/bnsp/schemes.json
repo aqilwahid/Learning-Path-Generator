@@ -1,0 +1,297 @@
+{
+  "updatedAt": "2026-09-26",
+  "provider": "Inixindo Jogja",
+  "note": "Daftar skema diambil dari halaman publik Inixindo Jogja. Nama skema, kode unit, dan judul unit disalin apa adanya (termasuk salah ketik di sumber). Nomor Kepmenaker/SKKNI dan nama LSP resmi belum tercantum di sumber — lengkapi saat validasi DPPP.",
+  "sources": [
+    { "id": "inix-sertifikasi", "title": "Sertifikasi IT – Inixindo Jogja (daftar 54 program nasional)", "url": "https://inixindojogja.co.id/sertifikasi/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-dc", "title": "LSP Pengelolaan Data Center – Inixindo Jogja", "url": "https://inixindojogja.co.id/lsp-pengelolaan-data-center/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-cloud", "title": "LSP Analisis Cloud Computing", "url": "https://inixindojogja.co.id/lsp-analisis-cloud-computing/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-itsm", "title": "LSP Pengelolaan Layanan Teknologi Informasi – Inixindo Jogja", "url": "https://inixindojogja.co.id/lsp-pengelolaan-layanan-teknologi-informasi/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-isms", "title": "LSP Pengelolaan Keamanan Informasi – Inixindo Jogja", "url": "https://inixindojogja.co.id/lsp-pengelolaan-keamanan-informasi/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-db", "title": "LSP Pengadministrasian Database", "url": "https://inixindojogja.co.id/lsp-pengadministrasian-database/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-mobile", "title": "LSP Pengembangan Mobile Application – Inixindo Jogja", "url": "https://inixindojogja.co.id/lsp-pengembangan-mobile-application/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-egov", "title": "LSP Pengadministrasian Infrastruktur E-Government – Inixindo Jogja", "url": "https://inixindojogja.co.id/lsp-pengadministrasian-infrastruktur-e-government/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-netsec", "title": "LSP Pengadministrasian Keamanan Jaringan – Inixindo Jogja", "url": "https://inixindojogja.co.id/lsp-pengadministrasian-keamanan-jaringan/", "accessed": "2026-09-26" },
+    { "id": "inix-klaster-prog", "title": "LSP Pemrograman", "url": "https://inixindojogja.co.id/lsp-pemrograman/", "accessed": "2026-09-26" },
+    { "id": "inix-junior-programmer", "title": "LSP Junior Programmer", "url": "https://inixindojogja.co.id/training/lsp-junior-programmer/", "accessed": "2026-09-26" },
+    { "id": "inix-jwd", "title": "LSP Junior Web Developer – Inixindo Jogja", "url": "https://inixindojogja.co.id/training/lsp-junior-web-developer/", "accessed": "2026-09-26" },
+    { "id": "inix-cio", "title": "LSP Chief Information Officer (CIO) – Inixindo Jogja", "url": "https://inixindojogja.co.id/training/lsp-chief-information-officer-cio/", "accessed": "2026-09-26" },
+    { "id": "inix-gcio", "title": "Government Chief Information Officer (GCIO) – Inixindo Jogja", "url": "https://inixindojogja.co.id/training/lsp-government-chief-information-officer-gcio/", "accessed": "2026-09-26" },
+    { "id": "inix-itsm-manager", "title": "Manajer Pengelolaan IT – Inixindo Jogja", "url": "https://inixindojogja.co.id/training/manajer-pengelolaan-layanan-it/", "accessed": "2026-09-26" },
+    { "id": "inix-ada", "title": "Analis Data Muda (Associate Data Analyst) – Inixindo Jogja", "url": "https://inixindojogja.co.id/analis-data-muda-associate-data-analyst-2/", "accessed": "2026-09-26" }
+  ],
+  "schemes": [
+    { "id": "big-data-scientist", "name": "Big Data Scientist", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "associate-data-scientist", "name": "Associate Data Scientist", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "data-engineer", "name": "Data Engineer", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "business-intelligence-analyst", "name": "Business Intelligence Analyst", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "database-administrator", "name": "Database Administrator", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "junior-mobile-programmer", "name": "Pemrogram Mobil Pratama (Junior Mobile Programmer)", "shortName": "Junior Mobile Programmer", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "junior-web-developer", "name": "Pengembang Web Pratama (Junior Web Developer)", "shortName": "Junior Web Developer", "durationText": "Durasi Pelatihan : 3 Hari", "sourceIds": ["inix-sertifikasi", "inix-jwd"] },
+    { "id": "web-developer", "name": "Web Developer", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "ui-ux-designer", "name": "UI/UX Designer", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "web-administrator", "name": "Web Administrator", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "fullstack-developer", "name": "FullStack Developer", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "system-analyst", "name": "System Analyst", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "database-programmer", "name": "Database Programmer", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "senior-programmer", "name": "Senior Programmer", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "desainer-grafis-muda", "name": "Desainer Grafis Muda", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "desainer-grafis-madya", "name": "Desainer Grafis Madya", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "desainer-multimedia-muda", "name": "Desainer Multimedia Muda", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "desainer-multimedia-madya", "name": "Desainer Multimedia Madya", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "video-editor", "name": "Video Editor", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "animator-muda", "name": "Animator Muda", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "animator-madya", "name": "Animator Madya", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "operator-komputer-muda", "name": "Operator Komputer Muda", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "operator-komputer-madya", "name": "Operator Komputer Madya", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "data-management-staff", "name": "Data Management Staff", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "digital-marketing", "name": "Digital Marketing", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "digital-marketing-manager", "name": "Digital Marketing Manager", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "content-creator", "name": "Content Creator", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "social-media-marketing", "name": "Social Media Marketing", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "seo-specialist", "name": "SEO Specialist", "sourceIds": ["inix-sertifikasi"] },
+    {
+      "id": "pengelolaan-data-center", "name": "Pengelolaan Data Center", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pengelolaan Data Center",
+      "standard": "Standar Kompetensi Kerja Nasional Indonesia (SKKNI) Kategori Informasi dan Komunikasi Golongan Pokok Kegiatan Jasa Informasi Sektor Pengelolaan Pusat Data",
+      "units": [
+        { "code": "J.631100.010.01", "title": "Mengelola Keamanan Fisik Pusat Data" },
+        { "code": "J.631100.011.01", "title": "Mengelola Kegiatan Operasi Pusat Data Harian" },
+        { "code": "J.631100.012.01", "title": "Mengelola Kegiatan Pembersihan Pusat Data" },
+        { "code": "J.631100.013.01", "title": "Mengelola Siklus Hidup Peralatan dan Perangkat Pusat Data" },
+        { "code": "J.631100.014.01", "title": "Mengelola Kegiatan Perawatan Pusat Data" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang Pusat Data (Data Center).",
+      "assessmentMethods": "Tes Tertulis, Demonstrasi Konseptual, Wawancara",
+      "sourceIds": ["inix-sertifikasi", "inix-klaster-dc"]
+    },
+    { "id": "network-administrator-muda", "name": "Network Administrator Muda", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "network-administrator-madya", "name": "Network Administrator Madya", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "network-administrator-utama", "name": "Network Administrator Utama", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "system-administrator", "name": "System Administrator", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "network-technician", "name": "Network Technician", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "junior-technical-support", "name": "Junior Technical Support", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "junior-computer-technician", "name": "Junior Computer Technician", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "junior-office-operator", "name": "Junior Office Operator", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "staff-operasi-layanan-it", "name": "Staff Operasi Layanan IT", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "ahli-cloud-computing", "name": "Ahli Cloud Computing", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "system-integrator", "name": "System Integrator", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "network-security-analyst", "name": "Network Security Analyst", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "teknisi-fiber-optik", "name": "Teknisi Instalasi & Aktivasi Fiber Optik", "sourceIds": ["inix-sertifikasi"] },
+    {
+      "id": "pengelolaan-layanan-ti", "name": "Pengelolaan Layanan Teknologi Informasi", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pengelolaan Layanan Teknologi Informasi",
+      "standard": "Standar Kompetensi Kerja Nasional Indonesia (SKKNI) Sektor Teknologi Informasi Bidang Manajemen Layanan Teknologi Informasi",
+      "units": [
+        { "code": "TIK.SM02.004.01", "title": "Memberikan Pelayanan TI Sesuai Dengan Bisnis Yang Dijalankan" },
+        { "code": "TIK.SM02.003.01", "title": "Menyediakan Layanan Berdasarkan Tingkat-Tingkat Tertentu" },
+        { "code": "TIK.SM02.009.01", "title": "Memberikan Pelayanan Produk-Produk Teknologi Informasi Sesuai Kebutuhan Bisnis" },
+        { "code": "TIK.SM02.011.01", "title": "Menetapkan Resolusi Dan Masalah Terhadap Seluruh Aktivitas Seluruh Siklus Hidup TI" },
+        { "code": "TIK.SM02.012.01", "title": "Mengelola Insiden Yang Terjadi" },
+        { "code": "TIK.SM03.006.01", "title": "Memantau Pelayanan Prosedur Tingkat Layanan" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang pengelolaan layanan teknologi Informasi (Information Technology Service Management).",
+      "assessmentMethods": "Tes Tertulis, Demonstrasi Konseptual, Wawancara",
+      "sourceIds": ["inix-sertifikasi", "inix-klaster-itsm"]
+    },
+    {
+      "id": "chief-information-officer", "name": "Chief Information Officer (CIO)", "shortName": "Chief Information Officer",
+      "fullName": "Skema CIO",
+      "units": [
+        { "code": "ICTICT808", "title": "Mengarahkan pengembangan strategi pengelolaan pengetauan (knowledge management) untuk bisnis" },
+        { "code": "ICTICT811", "title": "Melakukan manajemen dari sebuah proyek arsitektur informasi" },
+        { "code": "ICTICT812", "title": "Mengembangkan kerangka kerja intelijen bisnis" },
+        { "code": "J.620200.004.01", "title": "Menyusun roadmap arsitektur bisnis" },
+        { "code": "J.620200.006.01", "title": "Memfinalisasikan arsitektur bisnis" },
+        { "code": "M.702090.001.0", "title": "Mengelola proyek secara terintegrasi" },
+        { "code": "M.702090.009.0", "title": "Mengelola pengadaan-pengadaan proyek" }
+      ],
+      "durationText": "Durasi Pelatihan : 3 Hari",
+      "sourceIds": ["inix-sertifikasi", "inix-cio"]
+    },
+    {
+      "id": "itsm-manager", "name": "Manajer Pengelola Layanan (ITSM Manager)", "shortName": "ITSM Manager",
+      "fullName": "Skema IT Management (Manajer Pengelolaan Layanan IT)",
+      "units": [
+        { "code": "TIK.SM02.011.01", "title": "Menetapkan resolusi dan masalah terhadap seluruh aktivitas dan siklus hidup TI" },
+        { "code": "TIK.SM02.012.01", "title": "Mengelola insiden yang terjadi" },
+        { "code": "TIK.SM02.013.01", "title": "Mengelola konfigurasi sistem" },
+        { "code": "TIK.SM02.014.01", "title": "Mengelola perubahan yang terjadi" },
+        { "code": "TIK.SM03.001.01", "title": "Menentukan arsitektur perangkat keras" },
+        { "code": "TIK.SM03.003.01", "title": "Menyediakan tim operasional pendukung sistem" },
+        { "code": "TIK.SM03.004.01", "title": "Menetapkan standar otorisasi akses di dalam organisasi" },
+        { "code": "TIK.SM03.005.01", "title": "Menetapkan manajemen eskalasi terhadap permasalahan" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "note": "Detail unit diambil dari halaman 'Manajer Pengelolaan IT'; dicocokkan ke nama di daftar berdasarkan kemiripan nama — konfirmasi DPPP.",
+      "sourceIds": ["inix-sertifikasi", "inix-itsm-manager"]
+    },
+    { "id": "ict-project-manager", "name": "ICT Project Manager", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "it-auditor", "name": "IT Auditor", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "it-quality-assurance", "name": "IT Quality Assurance", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "deputy-manager-ict-pm", "name": "Deputy Manager ICT Project Management", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "digital-transformation-planner", "name": "Digital Transformation Planner 4.0", "sourceIds": ["inix-sertifikasi"] },
+    {
+      "id": "pengelolaan-keamanan-informasi", "name": "Pengelolaan Keamanan Informasi", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pengelolaan Keamanan Informasi",
+      "standard": "Standar Kompetensi Kerja Nasional Indonesia (SKKNI) Kategori Informasi dan Komunikasi Golongan Pokok Kegiatan Pemrograman, Konsultasi Komputer dan Kegiatan YBDI Bidang Keamanan Informasi",
+      "units": [
+        { "code": "J.62090.023", "title": "Mengelola Keamanan Fisik" },
+        { "code": "J.62090.025", "title": "Mengelola Sistem Pertahanan dan Perlindungan Keamanan Informasi" },
+        { "code": "J.62090.027", "title": "Mengimplementasikan Konfigurasi Keamanan Informasi" },
+        { "code": "J.62090.029", "title": "Mengelola Perimeter Keamanan" },
+        { "code": "J.62090.032", "title": "Menerapkan Kontrol Akses Berdasarkan Konsep/Metodologi yang Telah Ditetapkan" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang Sistem Manajemen Keamanan Informasi (Information Security Management System) beserta berbagai jenis kendali terhadap keamanan informasi (information security control).",
+      "assessmentMethods": "Tes Tertulis, Tes Praktik / Demonstrasi Konseptual, Wawancara",
+      "sourceIds": ["inix-sertifikasi", "inix-klaster-isms"]
+    },
+    { "id": "network-security-auditor", "name": "Auditor Keamanan Jaringan (Network Security Auditor)", "shortName": "Network Security Auditor", "sourceIds": ["inix-sertifikasi"] },
+    { "id": "junior-cyber-security", "name": "Junior Cyber Security", "sourceIds": ["inix-sertifikasi"] },
+    {
+      "id": "klaster-analisis-cloud-computing", "name": "Klaster Analisis Cloud Computing", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Analisis Cloud Computing",
+      "standard": "Standar ICA11 Information and Communication Technology Australia",
+      "units": [
+        { "code": "ICAICT423A", "title": "Menentukan strategi untuk memilih Cloud Storage" },
+        { "code": "ICAICT814A", "title": "Mengembangkan Strategi Cloud untuk bisnis" },
+        { "code": "ICANWK306A", "title": "Mengevaluasi layanan cloud" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang Cloud Computing.",
+      "assessmentMethods": "Tes Tertulis, Demonstrasi Konseptual, Wawancara",
+      "sourceIds": ["inix-klaster-cloud"]
+    },
+    {
+      "id": "klaster-pengadministrasian-database", "name": "Klaster Pengadministrasian Database", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pengadministrasian Database",
+      "standard": "Standar ICA11 Information and Communication Technology Australia",
+      "units": [
+        { "code": "ICAPRG425A", "title": "Menggunakan SQL (Structured Query Language)" },
+        { "code": "ICADBS402A", "title": "Melakukan backup dan restore database" },
+        { "code": "ICADBS409A", "title": "Memonitor dan Mengelola database" },
+        { "code": "ICADBS404A", "title": "Mengidentifikasi dan menyelesaikan permasalahan terkait performance database" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang suatu Database Management System.",
+      "assessmentMethods": "Tes Tertulis, Tes Praktik, Wawancara",
+      "sourceIds": ["inix-klaster-db"]
+    },
+    {
+      "id": "klaster-pengembangan-mobile-application", "name": "Klaster Pengembangan Mobile Application", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pengembangan Mobile Application",
+      "standard": "Standar ICA11 Information and Communication Technology Australia",
+      "units": [
+        { "code": "ICAPRG409A", "title": "Mengembangkan aplikasi mobile" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang pengembangan aplikasi dengan menggunakan suatu teknologi mobile.",
+      "assessmentMethods": "Tes Tertulis, Tes Praktik, Wawancara",
+      "sourceIds": ["inix-klaster-mobile"]
+    },
+    {
+      "id": "klaster-infrastruktur-e-government", "name": "Klaster Pengadministrasian Infrastruktur E-Government", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pengadministrasian Infrastruktur E-Government",
+      "standard": "Standar Kompetensi Kerja Nasional Indonesia (SKKNI) Sektor Komunikasi dan Informasi Sub Sektor Telematika Bidang Jaringan Komputer dan Sistem Administrasi",
+      "units": [
+        { "code": "TIK.JK02.001.01", "title": "Membuat Disain Jaringan Lokal (LAN)" },
+        { "code": "TIK.JK02.003.01", "title": "Mendisain Kebutuhan Server" },
+        { "code": "TIK.JK02.004.01", "title": "Mendisain Sistem Keamanan Jaringan" },
+        { "code": "TIK.JK02.007.01", "title": "Memasang Jaringan Nirkabel" },
+        { "code": "TIK.JK02.009.01", "title": "Menginstal Dan Mengkonfigurasi Manageable Switch Pada Jaringan" },
+        { "code": "TIK.JK02.018.01", "title": "Menginstalasi Dan Mengkonfigurasi Gateway Internet" },
+        { "code": "TIK.JK02.017.01", "title": "Menginstal Dan Mengkonfigurasi Komputer Server" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang perangkat keras baik komputer client maupun server, jaringan komputer baik dengan kabel maupun nirkabel, keamanan jaringan, dan koneksi Internet.",
+      "assessmentMethods": "Tes Tertulis, Tes Praktik, Wawancara",
+      "sourceIds": ["inix-klaster-egov"]
+    },
+    {
+      "id": "klaster-keamanan-jaringan", "name": "Klaster Pengadministrasian Keamanan Jaringan", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pengadministrasian Keamanan Jaringan",
+      "standard": "Standar Kompetensi Kerja Nasional Indonesia (SKKNI) Sektor Komunikasi dan Informasi Sub Sektor Telematika Bidang Jaringan Komputer dan Sistem Administrasi",
+      "units": [
+        { "code": "TIK.JK02.004.01", "title": "Mendisain Sistem Keamanan Jaringan" },
+        { "code": "TIK.JK02.018.01", "title": "Menginstalasi Dan Mengkonfigurasi Gateway Internet" },
+        { "code": "TIK.JK02.024.01", "title": "Memberikan Layanan Administrasi Sistem Jaringan" },
+        { "code": "TIK.JK03.008.01", "title": "Mengoptimasi Kinerja Sistem Jaringan" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang jaringan komputer dan keamanan jaringan.",
+      "assessmentMethods": "Tes Tertulis, Tes Praktik, Wawancara",
+      "note": "Bagian output di halaman sumber menyebut 'Skema Pengadministrasian Jaringan'.",
+      "sourceIds": ["inix-klaster-netsec"]
+    },
+    {
+      "id": "klaster-pemrograman", "name": "Klaster Pemrograman", "type": "klaster",
+      "fullName": "Sertifikasi Klaster Pemrograman",
+      "standard": "Standar Kompetensi Kerja Nasional Indonesia (SKKNI) Sektor Teknologi Informasi dan Komunikasi Bidang Keahlian Programmer Komputer",
+      "units": [
+        { "code": "TIK.PR02.003.01", "title": "Menggunakan spesifikasi program" },
+        { "code": "TIK.PR02.006.01", "title": "Menerapkan bahasa pemrograman terstruktur" },
+        { "code": "TIK.PR02.005.01", "title": "Mengembangkan user interface" },
+        { "code": "TIK.PR02.007.01", "title": "Menerapkan bahasa pemrograman Berorientasi objek" },
+        { "code": "TIK.PR02.009.01", "title": "Melakukan debugging program" },
+        { "code": "TIK.PR02.010.01", "title": "Membuat paket perangkat lunak" },
+        { "code": "TIK.PR02.012.01", "title": "Membuat dokumen kode program" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "prerequisites": "Peserta sudah memiliki pengetahuan dasar tentang suatu bahasa pemrograman.",
+      "assessmentMethods": "Tes Tertulis, Tes Praktik, Wawancara",
+      "sourceIds": ["inix-klaster-prog"]
+    },
+    {
+      "id": "junior-programmer", "name": "Junior Programmer",
+      "units": [
+        { "code": "J.612000.001", "title": "Menunjukkan platform operating system dan bahasa pemrograman di dalam perangkat lunak" },
+        { "code": "J.612000.007", "title": "Merancang mobile interface" },
+        { "code": "J.620100.001.01", "title": "Menganalisis tools" },
+        { "code": "J.620100.003.01", "title": "Melakukan identifikasi library, komponen atau framework yang diperlukan" },
+        { "code": "J.620100.004.02", "title": "Menggunakan struktur data" },
+        { "code": "J.620100.005.02", "title": "Mengimplementasikan user interface" },
+        { "code": "J.620100.007.01", "title": "Mengimplementasikan rancangan entitas dan keterkaitan antar entitas" },
+        { "code": "J.620100.010.01", "title": "Menerapkan perintah eksekusi bahasa pemrograman berbasis teks, grafik, dan multimedia" },
+        { "code": "J.620100.011.01", "title": "Melakukan instalasi software tools pemrograman" },
+        { "code": "J.620100.012.01", "title": "Melakukan pengaturan software tools pemrograman" },
+        { "code": "J.620100.014.01", "title": "Menerapkan metode dan praktik penggunaan kembali (reusable) subrutin-subrutin" },
+        { "code": "J.620100.015.01", "title": "Menyusun fungsi, file atau sumber daya pemrograman yang lain dalam organisasi yang rapi" },
+        { "code": "J.620100.016.01", "title": "Menulis kode dengan prinsip sesuai guidelines dan best practices" },
+        { "code": "J.620100.017.02", "title": "Mengimplementasikan pemrograman terstruktur" },
+        { "code": "J.620100.018.02", "title": "Mengimplementasikan pemrograman berorientasi objek" },
+        { "code": "J.620100.019.02", "title": "Menggunakan library atau komponen pre-existing" },
+        { "code": "J.620100.020.02", "title": "Menggunakan SQL" },
+        { "code": "J.620100.021.02", "title": "Menerapkan akses basis data" },
+        { "code": "J.620100.022.02", "title": "Mengimplementasikan algoritma pemrograman" },
+        { "code": "J.620100.025.02", "title": "Melakukan debugging" },
+        { "code": "J.620100.026.01", "title": "Menerapkan source code versioning" },
+        { "code": "J.620100.033.02", "title": "Melaksanakan pengujian unit program" },
+        { "code": "J.620100.034.02", "title": "Melaksanakan pengujian integrasi program" },
+        { "code": "J.620100.039.02", "title": "Memberikan petunjuk teknis kepada pelanggan" },
+        { "code": "J.620100.040.01", "title": "Membuat paket instalasi perangkat lunak" },
+        { "code": "J.620100.046.01", "title": "Mengimplementasikan fitur logging aplikasi" },
+        { "code": "J.62090.011", "title": "Menerapkan standar-standar keamanan informasi yang berlaku" },
+        { "code": "TIK.MM02.029.0", "title": "Merancang dan membuat interface multimedia" }
+      ],
+      "trainingDays": 2, "assessmentDays": 1,
+      "durationText": "Durasi Pelatihan : 3 Hari (2 Hari Pelatihan + 1 Hari Exam)",
+      "note": "Unit diambil dari bagian 'Outline Pelatihan' di halaman sumber.",
+      "sourceIds": ["inix-junior-programmer"]
+    },
+    {
+      "id": "gcio", "name": "Government Chief Information Officer (GCIO)", "shortName": "Government CIO (GCIO)",
+      "durationText": "Durasi Pelatihan : 3 Hari",
+      "note": "Halaman sumber: 'Mendapatkan sertifikasi LSP GCIO dari BNSP bila lulus ujian sertifikasi GCIO'. Unit belum tercantum.",
+      "sourceIds": ["inix-gcio"]
+    },
+    {
+      "id": "associate-data-analyst", "name": "Analis Data Muda (Associate Data Analyst)", "shortName": "Associate Data Analyst", "type": "okupasi",
+      "standard": "Standar Kompetensi Kerja Nasional Indonesia (SKKNI)",
+      "note": "Materi di halaman sumber (tanpa kode unit): Mengumpulkan Data; Menelaah Data; Menentukan Objek Data; Membersihkan Data; Menggunakan SQL; Menggunakan Data.",
+      "sourceIds": ["inix-ada"]
+    }
+  ]
+}

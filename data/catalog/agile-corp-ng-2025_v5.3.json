@@ -1,0 +1,445 @@
+{
+  "id": "agile-corp-ng-2025",
+  "title": "Agile Corp Job Role Learning Path 2025",
+  "program": "Agile Corp: Next Generation",
+  "version": "5.3",
+  "year": 2025,
+  "source": {
+    "file": "Agile Corp NG JobRole v5.3.pdf",
+    "note": "Ditranskripsi dari poster. Judul topik disalin apa adanya; judul paket & label track dinormalisasi, teks asli disimpan di field `original`."
+  },
+  "layers": [
+    { "id": "strategic", "name": "IT Strategic Layer" },
+    { "id": "implementation", "name": "IT Implementation Layer" }
+  ],
+  "functions": [
+    { "id": "A", "name": "Innovation", "label": "A. INNOVATION", "layer": "strategic" },
+    { "id": "B", "name": "Enterprise Design", "label": "B. ENT. DESIGN", "layer": "strategic" },
+    { "id": "C", "name": "Governance", "label": "C. GOVERNANCE", "layer": "strategic" },
+    { "id": "D", "name": "Management", "label": "D. MANAGEMENT", "layer": "strategic" },
+    { "id": "E", "name": "Development", "label": "E. DEVELOPMENT", "layer": "implementation" },
+    { "id": "F", "name": "Security", "label": "F. SECURITY", "layer": "implementation" },
+    { "id": "G", "name": "Operations", "label": "G. OPERATIONS", "layer": "implementation" }
+  ],
+  "roles": [
+    {
+      "id": "A1", "functionId": "A", "number": 1, "name": "Digital Transformation Officer", "abbr": "DTO",
+      "description": "Memimpin perencanaan dan eksekusi transformasi digital organisasi, termasuk strategi AI.",
+      "packages": [
+        { "code": "NG-A11", "level": 1, "title": "DTO Foundation", "topics": [
+          { "title": "Digital Leadership", "days": 2 },
+          { "title": "Artificial Intelligence Knowledge Foundation", "days": 2 } ] },
+        { "code": "NG-A12", "level": 2, "title": "DTO Intermediate", "topics": [
+          { "title": "Digital Transformation Plan (Strategic Agility)", "days": 3 },
+          { "title": "AI Strategies and Policies", "days": 2 },
+          { "title": "Business Acumen", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "A2", "functionId": "A", "number": 2, "name": "Business Analyst",
+      "description": "Menganalisis proses bisnis dan kebutuhan pengguna, lalu menerjemahkannya menjadi kebutuhan solusi.",
+      "packages": [
+        { "code": "NG-A21", "level": 1, "title": "Business Analyst Foundation", "topics": [
+          { "title": "Business Process Management", "days": 2 },
+          { "title": "Business Analysis Essentials", "days": 3 } ] },
+        { "code": "NG-A22", "level": 2, "title": "Business Analyst Intermediate", "topics": [
+          { "title": "Business Analysis Body of Knowledge", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "A3", "functionId": "A", "number": 3, "name": "Digital Skill", "crossCutting": true,
+      "description": "Literasi digital untuk seluruh pegawai: TIK dasar, kolaborasi, keamanan, konten, dan produktivitas.",
+      "packages": [
+        { "code": "NG-A31", "level": 1, "title": "Digital Skill Foundation", "topics": [
+          { "title": "ICT Literacy", "days": 2 },
+          { "title": "Communication, Collaboration & Safety", "days": 2 },
+          { "title": "Security Awareness for End Users", "days": 2 },
+          { "title": "Developing Infographics", "days": 3 } ] },
+        { "code": "NG-A32", "level": 2, "title": "Digital Skill Intermediate", "topics": [
+          { "title": "Building Innovation with System Thinking", "days": 3 },
+          { "title": "Video Content Creator", "days": 2 },
+          { "title": "Digital Marketing", "days": 2 } ] },
+        { "code": "NG-A33", "level": 3, "title": "Digital Skill Advanced",
+          "original": { "title": "Digital Skill Advance" },
+          "topics": [
+          { "title": "Productivity Improvement with Excel Automation", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "B1", "functionId": "B", "number": 1, "name": "Enterprise Architect",
+      "description": "Merancang arsitektur enterprise (bisnis, data, aplikasi, teknologi) yang selaras dengan strategi organisasi.",
+      "packages": [
+        { "code": "NG-B11", "level": 1, "title": "Enterprise Architect Foundation", "topics": [
+          { "title": "Knowledge on Enterprise IT Architecture (TOGAF)", "days": 3 },
+          { "title": "Drawing Enterprise Architecture with Archimate Tools and BPMN Tools", "days": 2 } ] },
+        { "code": "NG-B12", "level": 2, "title": "Enterprise Architect Intermediate", "topics": [
+          { "title": "Agile Enterprise Architecture Development", "days": 2 },
+          { "title": "Enterprise Security Architecture with SABSA", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "B2", "functionId": "B", "number": 2, "name": "AI Product Designer",
+      "description": "Merancang produk dan layanan berbasis AI generatif untuk kebutuhan bisnis.",
+      "packages": [
+        { "code": "NG-B21", "level": 1, "title": "AI Product Designer Foundation", "topics": [
+          { "title": "Mastering AI Tools and Prompt Engineering", "days": 3 },
+          { "title": "Generative AI Implementation for Business Leaders", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "C1", "functionId": "C", "number": 1, "name": "Chief Information Officer", "abbr": "CIO",
+      "description": "Memimpin tata kelola dan perencanaan strategis TI organisasi.",
+      "packages": [
+        { "code": "NG-C11", "level": 1, "title": "CIO Foundation", "topics": [
+          { "title": "IT Governance (Cobit 2019)", "days": 2 },
+          { "title": "IT Strategic Plan", "days": 3 } ] },
+        { "code": "NG-C12", "level": 2, "title": "CIO Intermediate", "topics": [
+          { "title": "Designing IT Governance System", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "C2", "functionId": "C", "number": 2, "name": "Chief Data Officer", "abbr": "CDO",
+      "description": "Memimpin manajemen dan tata kelola data serta pengetahuan organisasi.",
+      "packages": [
+        { "code": "NG-C21", "level": 1, "title": "CDO Foundation", "topics": [
+          { "title": "Data Management and Data Governance", "days": 3 },
+          { "title": "Knowledge Management", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "C3", "functionId": "C", "number": 3, "name": "Chief AI Officer", "abbr": "CAIO",
+      "description": "Menetapkan tata kelola, manajemen risiko, dan kepatuhan pemanfaatan AI.",
+      "packages": [
+        { "code": "NG-C31", "level": 1, "title": "CAIO Foundation", "topics": [
+          { "title": "Artificial Intelligence Governance", "days": 2 },
+          { "title": "Artificial Intelligence Risk and Compliance", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "C4", "functionId": "C", "number": 4, "name": "IT Auditor",
+      "description": "Mengaudit risiko, kontrol, dan keamanan TI berdasarkan standar.",
+      "packages": [
+        { "code": "NG-C41", "level": 1, "title": "IT Auditor Foundation", "topics": [
+          { "title": "IT Risk Management Knowledge", "days": 3 },
+          { "title": "IT Audit Process (Administration and Technical)", "days": 2 } ] },
+        { "code": "NG-C42", "level": 2, "title": "IT Auditor Intermediate", "topics": [
+          { "title": "Cyber Security Assessment based NIST Framework", "days": 2 },
+          { "title": "ISMS Lead to Audit ISO 27001", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "C5", "functionId": "C", "number": 5, "name": "Chief Security Officer", "abbr": "CSO",
+      "description": "Memimpin sistem manajemen keamanan informasi berbasis ISO 27001.",
+      "packages": [
+        { "code": "NG-C51", "level": 1, "title": "CSO Foundation", "topics": [
+          { "title": "ISO 27001:2022 ISMS Foundation", "days": 2 },
+          { "title": "ISMS Lead to Implement ISO 27001", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "D1", "functionId": "D", "number": 1, "name": "IT Service Manager",
+      "description": "Mengelola layanan TI: tata kelola, kapasitas, kinerja, dan mutu layanan (ISO 20000).",
+      "packages": [
+        { "code": "NG-D11", "level": 1, "title": "IT Service Manager Foundation", "topics": [
+          { "title": "IT Service Management and Governance", "days": 3 },
+          { "title": "IT Capacity and Performance Management", "days": 2 } ] },
+        { "code": "NG-D12", "level": 2, "title": "IT Service Manager Intermediate", "topics": [
+          { "title": "IT Service Quality Management with ISO 20000", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "D2", "functionId": "D", "number": 2, "name": "Project Manager",
+      "description": "Mengelola proyek TI dari perencanaan sampai penutupan.",
+      "packages": [
+        { "code": "NG-D21", "level": 1, "title": "Project Manager Foundation", "topics": [
+          { "title": "Project Management Knowledge (Practical) PMBOK6", "days": 3 },
+          { "title": "Mastering Microsoft Project 2016", "days": 3 } ] },
+        { "code": "NG-D22", "level": 2, "title": "Project Manager Intermediate", "topics": [
+          { "title": "IT Project Management (PMBOK7)", "days": 3 },
+          { "title": "Mastering Microsoft Project 2019", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "D3", "functionId": "D", "number": 3, "name": "Data Protection Officer", "abbr": "DPO",
+      "description": "Mengawal penerapan pelindungan data pribadi sesuai UU PDP.",
+      "packages": [
+        { "code": "NG-D31", "level": 1, "title": "DPO Foundation", "topics": [
+          { "title": "Model Penerapan UU PDP", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "E1", "functionId": "E", "number": 1, "name": "System Analyst",
+      "description": "Menganalisis kebutuhan dan merancang sistem informasi.",
+      "packages": [
+        { "code": "NG-E11", "level": 1, "title": "System Analyst Foundation", "topics": [
+          { "title": "System Analysis and Design", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "E2", "functionId": "E", "number": 2, "name": "DevOps Engineer",
+      "description": "Mengotomasi build, deployment, dan operasional aplikasi berbasis container.",
+      "packages": [
+        { "code": "NG-E21", "level": 1, "title": "DevOps Engineer Foundation", "topics": [
+          { "title": "Fundamental DevOps", "days": 3 } ] },
+        { "code": "NG-E22", "level": 2, "title": "DevOps Engineer Intermediate", "topics": [
+          { "title": "Docker and Kubernetes", "days": 4 } ] },
+        { "code": "NG-E23", "level": 3, "title": "DevOps Engineer Advanced", "topics": [
+          { "title": "Microservices with Docker", "days": 5 },
+          { "title": "Implementing Docker for Web Developer", "days": 3 } ] },
+        { "code": "NG-E24", "level": 4, "title": "DevOps Engineer Expert", "topics": [
+          { "title": "Managing Kubernetes Cluster", "days": 3 },
+          { "title": "Securing Microservice Environment", "days": 2 },
+          { "title": "Automation with Ansible", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "E3", "functionId": "E", "number": 3, "name": "Scrum Master",
+      "description": "Memfasilitasi tim pengembangan agile dengan kerangka kerja Scrum.",
+      "packages": [
+        { "code": "NG-E31", "level": 1, "title": "Scrum Master Foundation", "topics": [
+          { "title": "Agile Development", "days": 2 },
+          { "title": "Agile Scrum Master", "days": 3 } ] },
+        { "code": "NG-E32", "level": 2, "title": "Scrum Master Intermediate", "topics": [
+          { "title": "Scrum Product Owner", "days": 3 },
+          { "title": "Scrum Team in Practice", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "E4", "functionId": "E", "number": 4, "name": "Test Specialist",
+      "description": "Merencanakan dan menjalankan pengujian perangkat lunak, termasuk pengujian API.",
+      "packages": [
+        { "code": "NG-E41", "level": 1, "title": "Test Specialist Foundation",
+          "original": { "title": "Test Spesialist Foundation" },
+          "topics": [
+          { "title": "Software Testing Plan", "days": 2 },
+          { "title": "Software Testing Implementation", "days": 2 } ] },
+        { "code": "NG-E42", "level": 2, "title": "Test Specialist Intermediate",
+          "original": { "title": "Test Spesialist Intermediate" },
+          "topics": [
+          { "title": "Software Testing in Agile Development", "days": 2 },
+          { "title": "API Testing and Development", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "E5", "functionId": "E", "number": 5, "name": "Integration Engineer",
+      "description": "Membangun integrasi antarsistem melalui REST API dan API Gateway.",
+      "packages": [
+        { "code": "NG-E51", "level": 1, "title": "Integration Engineer Foundation", "topics": [
+          { "title": "Backend Web API Programming", "days": 2 },
+          { "title": "Building Digital Ecosystem with Rest API and API Gateway", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "E6", "functionId": "E", "number": 6, "name": "Big Data Specialist",
+      "description": "Mengolah data berskala besar dengan Python, Hadoop, dan Spark.",
+      "packages": [
+        { "code": "NG-E61", "level": 1, "title": "Big Data Specialist Foundation",
+          "original": { "title": "Big Data Spesialist Foundation" },
+          "topics": [
+          { "title": "Big Data Analysis with Python", "days": 3 } ] },
+        { "code": "NG-E62", "level": 2, "title": "Big Data Specialist Intermediate",
+          "original": { "title": "Big Data Spesialist Intermediate" },
+          "topics": [
+          { "title": "Big Data with Hadoop and Spark", "days": 4 },
+          { "title": "Big Data Processing with Apache", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "E7", "functionId": "E", "number": 7, "name": "AI Engineer",
+      "description": "Membangun dan mengoperasikan model machine learning, NLP, dan LLM.",
+      "packages": [
+        { "code": "NG-E71", "level": 1, "title": "AI Engineer Foundation", "topics": [
+          { "title": "Python Programming for AI", "days": 2 },
+          { "title": "Artificial Intelligence and Machine Learning Fundamentals", "days": 3 } ] },
+        { "code": "NG-E72", "level": 2, "title": "AI Engineer Intermediate", "topics": [
+          { "title": "Natural Language Processing Fundamentals", "days": 3 },
+          { "title": "Generative AI with LLM (Large Language Model)", "days": 2 } ] },
+        { "code": "NG-E73", "level": 3, "title": "AI Engineer Advanced", "topics": [
+          { "title": "Machine Learning Operations (MLOps)", "days": 5 } ] },
+        { "code": "NG-E74", "level": 4, "title": "AI Engineer Expert", "topics": [
+          { "title": "Beginning Application Development with TensorFlow and Keras", "days": 2 },
+          { "title": "Applied Deep Learning with Keras", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "E8", "functionId": "E", "number": 8, "name": "Web Apps Developer",
+      "description": "Membangun aplikasi web full-stack yang aman.",
+      "packages": [
+        { "code": "NG-E81", "level": 1, "title": "Web Apps Developer Foundation", "topics": [
+          { "title": "Fullstack Web Development using PHP, Bootstrap, and MySQL", "days": 4 } ] },
+        { "code": "NG-E82", "level": 2, "title": "Web Apps Developer Intermediate", "tracks": [
+          { "id": "vuejs", "label": "Vue.js", "topics": [ { "title": "Build Web App with Framework Vue.js", "days": 4 } ] },
+          { "id": "reactjs", "label": "React.js", "topics": [ { "title": "Build Web App with Framework React.js", "days": 4 } ] },
+          { "id": "laravel", "label": "Laravel", "topics": [ { "title": "Building Web Application with Laravel", "days": 4 } ] },
+          { "id": "django", "label": "Django", "topics": [ { "title": "Django Web Development", "days": 5 } ] } ] },
+        { "code": "NG-E83", "level": 3, "title": "Web Apps Developer Advanced", "topics": [
+          { "title": "Secure Web Programming", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "E9", "functionId": "E", "number": 9, "name": "Mobile Apps Developer",
+      "description": "Membangun aplikasi mobile lintas platform dengan Flutter.",
+      "packages": [
+        { "code": "NG-E91", "level": 1, "title": "Mobile Apps Developer Foundation", "topics": [
+          { "title": "Cross Platform Mobile Development with Flutter", "days": 5 } ] },
+        { "code": "NG-E92", "level": 2, "title": "Mobile Apps Developer Intermediate", "topics": [
+          { "title": "Faster Development using GetX Flutter", "days": 3 },
+          { "title": "Securing Flutter App", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "E10", "functionId": "E", "number": 10, "name": "Data Scientist",
+      "description": "Mengumpulkan, menganalisis, dan memvisualisasikan data untuk pengambilan keputusan.",
+      "packages": [
+        { "code": "NG-E101", "level": 1, "title": "Data Scientist Foundation", "topics": [
+          { "title": "Data Gathering using Web Scraping", "days": 2 },
+          { "title": "Analyzing Data with Power BI", "days": 4 } ] },
+        { "code": "NG-E102", "level": 2, "title": "Data Scientist Intermediate", "topics": [
+          { "title": "Introduction to Python for Data Science", "days": 2 },
+          { "title": "Python for Data Analyst", "days": 4 },
+          { "title": "Data Visualization with Python", "days": 3 } ] },
+        { "code": "NG-E103", "level": 3, "title": "Data Scientist Advanced",
+          "original": { "title": "Data Scientist Advance" },
+          "topics": [
+          { "title": "Visual Analytic with Deep Learning", "days": 3 },
+          { "title": "Data Analytics and Machine Learning with Python", "days": 4 } ] }
+      ]
+    },
+    {
+      "id": "F1", "functionId": "F", "number": 1, "name": "Penetration Tester",
+      "description": "Menguji keamanan aplikasi web, mobile, dan jaringan melalui penetration testing.",
+      "packages": [
+        { "code": "NG-F11", "level": 1, "title": "Penetration Tester Foundation", "topics": [
+          { "title": "Web App Penetration Testing", "days": 2 },
+          { "title": "Mobile App Penetration Testing", "days": 2 } ] },
+        { "code": "NG-F12", "level": 2, "title": "Penetration Tester Intermediate", "topics": [
+          { "title": "Network Penetration Testing", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "F2", "functionId": "F", "number": 2, "name": "Incident Responder",
+      "description": "Menangani insiden keamanan siber dan melakukan analisis forensik.",
+      "packages": [
+        { "code": "NG-F21", "level": 1, "title": "Incident Responder Foundation", "topics": [
+          { "title": "Computer Security Incident Handling (CSIRT)", "days": 3 },
+          { "title": "Computer Forensic Analysis", "days": 2 } ] },
+        { "code": "NG-F22", "level": 2, "title": "Incident Responder Intermediate", "topics": [
+          { "title": "Web Hacking Forensic", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "F3", "functionId": "F", "number": 3, "name": "Cybersecurity Administrator",
+      "description": "Mengamankan jaringan dan sistem operasi (Mikrotik atau Linux).",
+      "packages": [
+        { "code": "NG-F31", "level": 1, "title": "Cybersecurity Administrator Foundation", "tracks": [
+          { "id": "mikrotik", "label": "Mikrotik", "topics": [
+            { "title": "Network Security with Mikrotik", "days": 2 },
+            { "title": "Switching Security in Mikrotik", "days": 3 } ] },
+          { "id": "linux", "label": "Linux", "topics": [
+            { "title": "Securing Linux Operating System", "days": 2 },
+            { "title": "Securing Network with pfSense", "days": 2 } ] } ] }
+      ]
+    },
+    {
+      "id": "G1", "functionId": "G", "number": 1, "name": "Operation Center Specialist",
+      "description": "Memantau dan menangani operasional keamanan (SOC) dan jaringan (NOC).",
+      "packages": [
+        { "code": "NG-G11", "level": 1, "title": "Operation Center Foundation", "topics": [
+          { "title": "Security Operation Center", "days": 4 } ] },
+        { "code": "NG-G12", "level": 2, "title": "Operation Center Intermediate", "topics": [
+          { "title": "Administering Network Operation Center", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "G2", "functionId": "G", "number": 2, "name": "Virtualization Specialist",
+      "description": "Membangun dan mengelola data center berbasis virtualisasi (SDDC).",
+      "packages": [
+        { "code": "NG-G21", "level": 1, "title": "Virtualization Specialist Foundation", "tracks": [
+          { "id": "vmware", "label": "VMware", "original": "VMWare", "topics": [
+            { "title": "Software Defined Data Center with VMWare (V7)", "days": 5 } ] },
+          { "id": "proxmox-ve", "label": "Proxmox VE", "topics": [
+            { "title": "Software Defined Data Center with Proxmox VE", "days": 5 } ] } ] }
+      ]
+    },
+    {
+      "id": "G3", "functionId": "G", "number": 3, "name": "Data Center Specialist",
+      "description": "Mengelola operasional pusat data sesuai SNI 8799.",
+      "packages": [
+        { "code": "NG-G31", "level": 1, "title": "Data Center Specialist Foundation", "topics": [
+          { "title": "Pengelolaan Data Center", "days": 2 },
+          { "title": "Pengelolaan Layanan Operasional Pusat Data", "days": 2 } ] },
+        { "code": "NG-G32", "level": 2, "title": "Data Center Specialist Intermediate", "topics": [
+          { "title": "Data Center Specification based SNI8799-1", "days": 2 },
+          { "title": "Data Center Operation Management based SNI8799-2", "days": 2 } ] }
+      ]
+    },
+    {
+      "id": "G4", "functionId": "G", "number": 4, "name": "Cloud Engineer",
+      "description": "Mengelola layanan komputasi awan (AWS atau GCP).",
+      "packages": [
+        { "code": "NG-G41", "level": 1, "title": "Cloud Engineer Foundation", "topics": [
+          { "title": "Cloud Essentials", "days": 2 },
+          { "title": "Cloud Administration for End User", "days": 2 } ] },
+        { "code": "NG-G42", "level": 2, "title": "Cloud Engineer Intermediate", "tracks": [
+          { "id": "aws", "label": "AWS", "topics": [ { "title": "Implementing AWS Cloud Computing", "days": 3 } ] },
+          { "id": "gcp", "label": "GCP", "topics": [ { "title": "Implementing GCP Cloud Computing", "days": 4 } ] } ] }
+      ]
+    },
+    {
+      "id": "G5", "functionId": "G", "number": 5, "name": "Network Engineer",
+      "description": "Merancang dan mengelola lalu lintas jaringan (Mikrotik).",
+      "packages": [
+        { "code": "NG-G51", "level": 1, "title": "Network Engineer Foundation", "topics": [
+          { "title": "Traffic Management with Mikrotik", "days": 3 } ] },
+        { "code": "NG-G52", "level": 2, "title": "Network Engineer Intermediate", "topics": [
+          { "title": "Advanced Traffic Management with Mikrotik", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "G6", "functionId": "G", "number": 6, "name": "Database Administrator",
+      "description": "Mengelola, mengamankan, dan menyetel kinerja basis data (Oracle atau MongoDB).",
+      "packages": [
+        { "code": "NG-G61", "level": 1, "title": "Database Administrator Foundation", "tracks": [
+          { "id": "oracle-db", "label": "Oracle DB", "topics": [
+            { "title": "Oracle Database: SQL Fundamentals I", "days": 3 },
+            { "title": "Oracle Database Administration 12c", "days": 4 } ] },
+          { "id": "mongodb", "label": "MongoDB", "original": "MongoDb", "topics": [
+            { "title": "Introducing noSQL Database", "days": 3 },
+            { "title": "MongoDB Administration", "days": 2 } ] } ] },
+        { "code": "NG-G62", "level": 2, "title": "Database Administrator Intermediate", "tracks": [
+          { "id": "oracle-db", "label": "Oracle DB", "topics": [
+            { "title": "Oracle Performance Management and Tuning", "days": 5 } ] },
+          { "id": "mongodb", "label": "MongoDB", "topics": [
+            { "title": "MongoDB Tuning and Optimization", "days": 3 } ] } ] }
+      ]
+    },
+    {
+      "id": "G7", "functionId": "G", "number": 7, "name": "Technical Support",
+      "description": "Memberikan layanan dukungan teknis serta troubleshooting jaringan dan server.",
+      "packages": [
+        { "code": "NG-G71", "level": 1, "title": "Technical Support Foundation", "topics": [
+          { "title": "IT Service Desk", "days": 2 },
+          { "title": "Network Infrastructure Assessment", "days": 3 } ] },
+        { "code": "NG-G72", "level": 2, "title": "Technical Support Intermediate", "topics": [
+          { "title": "Troubleshooting and Optimizing Network", "days": 2 },
+          { "title": "Troubleshooting and Optimizing Server", "days": 2 } ] },
+        { "code": "NG-G73", "level": 3, "title": "Technical Support Advanced", "topics": [
+          { "title": "High Availability Server with HAProxy", "days": 3 } ] }
+      ]
+    },
+    {
+      "id": "G8", "functionId": "G", "number": 8, "name": "System Administrator",
+      "description": "Mengelola server dan layanan berbasis Linux.",
+      "packages": [
+        { "code": "NG-G81", "level": 1, "title": "System Administrator Foundation", "tracks": [
+          { "id": "linux", "label": "Linux", "topics": [
+            { "title": "Mastering Linux and Shell Programming", "days": 5 } ] } ] },
+        { "code": "NG-G82", "level": 2, "title": "System Administrator Intermediate",
+          "original": { "levelLabel": "Lv.1", "note": "Poster menulis Lv.1; kode NG-G82 dan judul Intermediate menunjukkan Lv.2." },
+          "tracks": [
+          { "id": "linux", "label": "Linux", "topics": [
+            { "title": "Linux Server Services Essential", "days": 3 } ] } ] }
+      ]
+    }
+  ]
+}

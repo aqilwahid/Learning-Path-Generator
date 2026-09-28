@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# build artefacts
+/public/wasm/
+
+# testing
+/coverage
+/e2e-results/
+/playwright-report/
+/test-results/
+/samples/out/
+
+# env (jangan commit rahasia)
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+*.log
+.vercel

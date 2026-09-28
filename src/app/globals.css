@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #c00000;
+  --color-brand-red-soft: #fbeaea;
+  --color-brand-navy: #04294b;
+  --color-brand-blue: #063d71;
+  --color-brand-sky: #ceddea;
+  --color-ink: #0f1b2d;
+  --color-muted: #5b6b7f;
+  --color-line: #d5dee8;
+  --color-mist: #f3f6fa;
+  --color-done: #2e7d5b;
+  --color-warn: #b7791f;
+  --color-lv1: #4a86c5;
+  --color-lv2: #2166a8;
+  --color-lv3: #0f4c8a;
+  --color-lv4: #0a2f5c;
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* fokus yang jelas untuk navigasi keyboard */
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--color-brand-blue) 55%, white);
+  outline-offset: 2px;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+}

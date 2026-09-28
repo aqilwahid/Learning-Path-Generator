@@ -1,0 +1,101 @@
+{
+  "updatedAt": "2026-09-26",
+  "status": "draft",
+  "note": "DRAF pemetaan role → skema BNSP. Disusun dari kemiripan cakupan topik poster dengan nama/unit skema. Wajib divalidasi DPPP sebelum dikutip di proposal. `readyAfterLevel` = level paket NG yang dianggap cukup sebagai bekal uji. `priority` 1 = skema utama pada level tersebut. Setelah divalidasi, set `verified: true` per role.",
+  "mappings": [
+    { "roleId": "A1", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "digital-transformation-planner", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "A2", "match": "partial", "verified": false, "note": "Padanan parsial: skema berfokus pada analisis sistem, bukan analisis bisnis.", "schemes": [
+      { "schemeId": "system-analyst", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "A3", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "operator-komputer-muda", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "junior-office-operator", "readyAfterLevel": 1, "priority": 2 },
+      { "schemeId": "content-creator", "readyAfterLevel": 2, "priority": 1 },
+      { "schemeId": "digital-marketing", "readyAfterLevel": 2, "priority": 2 },
+      { "schemeId": "social-media-marketing", "readyAfterLevel": 2, "priority": 3 },
+      { "schemeId": "operator-komputer-madya", "readyAfterLevel": 3, "priority": 1 } ] },
+    { "roleId": "B1", "match": "none", "verified": false, "note": "Belum ada skema Enterprise Architect di daftar Inixindo Jogja.", "schemes": [] },
+    { "roleId": "B2", "match": "none", "verified": false, "note": "Belum ada skema untuk perancangan produk AI.", "schemes": [] },
+    { "roleId": "C1", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "chief-information-officer", "readyAfterLevel": 2, "priority": 1 },
+      { "schemeId": "gcio", "readyAfterLevel": 2, "priority": 2, "note": "Alternatif untuk instansi pemerintah." } ] },
+    { "roleId": "C2", "match": "partial", "verified": false, "note": "Padanan parsial: skema berjenjang staf, belum setara level chief.", "schemes": [
+      { "schemeId": "data-management-staff", "readyAfterLevel": 1, "priority": 1 } ] },
+    { "roleId": "C3", "match": "none", "verified": false, "note": "Belum ada skema tata kelola AI.", "schemes": [] },
+    { "roleId": "C4", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "it-auditor", "readyAfterLevel": 2, "priority": 1 },
+      { "schemeId": "network-security-auditor", "readyAfterLevel": 2, "priority": 2 } ] },
+    { "roleId": "C5", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "pengelolaan-keamanan-informasi", "readyAfterLevel": 1, "priority": 1 } ] },
+    { "roleId": "D1", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "pengelolaan-layanan-ti", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "staff-operasi-layanan-it", "readyAfterLevel": 1, "priority": 2 },
+      { "schemeId": "itsm-manager", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "D2", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "deputy-manager-ict-pm", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "ict-project-manager", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "D3", "match": "none", "verified": false, "note": "Belum ada skema pelindungan data pribadi (DPO) di daftar Inixindo Jogja.", "schemes": [] },
+    { "roleId": "E1", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "system-analyst", "readyAfterLevel": 1, "priority": 1 } ] },
+    { "roleId": "E2", "match": "none", "verified": false, "note": "Belum ada skema DevOps.", "schemes": [] },
+    { "roleId": "E3", "match": "none", "verified": false, "note": "Belum ada skema Scrum Master.", "schemes": [] },
+    { "roleId": "E4", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "it-quality-assurance", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "E5", "match": "partial", "verified": false, "note": "Padanan parsial: skema pemrograman umum, belum spesifik integrasi/API.", "schemes": [
+      { "schemeId": "junior-programmer", "readyAfterLevel": 1, "priority": 1 } ] },
+    { "roleId": "E6", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "data-engineer", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "big-data-scientist", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "E7", "match": "partial", "verified": false, "note": "Padanan parsial: skema data science, belum spesifik rekayasa AI.", "schemes": [
+      { "schemeId": "associate-data-scientist", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "E8", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "junior-web-developer", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "klaster-pemrograman", "readyAfterLevel": 1, "priority": 2 },
+      { "schemeId": "junior-programmer", "readyAfterLevel": 1, "priority": 3 },
+      { "schemeId": "web-developer", "readyAfterLevel": 2, "priority": 1 },
+      { "schemeId": "fullstack-developer", "readyAfterLevel": 3, "priority": 1 } ] },
+    { "roleId": "E9", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "junior-mobile-programmer", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "klaster-pengembangan-mobile-application", "readyAfterLevel": 1, "priority": 2 } ] },
+    { "roleId": "E10", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "associate-data-analyst", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "business-intelligence-analyst", "readyAfterLevel": 1, "priority": 2 },
+      { "schemeId": "associate-data-scientist", "readyAfterLevel": 2, "priority": 1 },
+      { "schemeId": "big-data-scientist", "readyAfterLevel": 3, "priority": 1 } ] },
+    { "roleId": "F1", "match": "partial", "verified": false, "note": "Padanan parsial: skema keamanan siber tingkat junior.", "schemes": [
+      { "schemeId": "junior-cyber-security", "readyAfterLevel": 1, "priority": 1 } ] },
+    { "roleId": "F2", "match": "partial", "verified": false, "note": "Padanan parsial: belum ada skema khusus penanganan insiden/forensik.", "schemes": [
+      { "schemeId": "junior-cyber-security", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "network-security-analyst", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "F3", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "network-security-analyst", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "klaster-keamanan-jaringan", "readyAfterLevel": 1, "priority": 2 },
+      { "schemeId": "junior-cyber-security", "readyAfterLevel": 1, "priority": 3 } ] },
+    { "roleId": "G1", "match": "partial", "verified": false, "note": "Padanan parsial: belum ada skema khusus SOC/NOC.", "schemes": [
+      { "schemeId": "staff-operasi-layanan-it", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "network-security-analyst", "readyAfterLevel": 1, "priority": 2 } ] },
+    { "roleId": "G2", "match": "partial", "verified": false, "note": "Padanan parsial: belum ada skema khusus virtualisasi.", "schemes": [
+      { "schemeId": "ahli-cloud-computing", "readyAfterLevel": 1, "priority": 1 } ] },
+    { "roleId": "G3", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "pengelolaan-data-center", "readyAfterLevel": 1, "priority": 1 } ] },
+    { "roleId": "G4", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "klaster-analisis-cloud-computing", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "ahli-cloud-computing", "readyAfterLevel": 2, "priority": 1 } ] },
+    { "roleId": "G5", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "network-administrator-muda", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "network-technician", "readyAfterLevel": 1, "priority": 2 },
+      { "schemeId": "klaster-infrastruktur-e-government", "readyAfterLevel": 1, "priority": 3 },
+      { "schemeId": "network-administrator-madya", "readyAfterLevel": 2, "priority": 1 },
+      { "schemeId": "klaster-keamanan-jaringan", "readyAfterLevel": 2, "priority": 2 } ] },
+    { "roleId": "G6", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "database-administrator", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "klaster-pengadministrasian-database", "readyAfterLevel": 1, "priority": 2 },
+      { "schemeId": "database-programmer", "readyAfterLevel": 1, "priority": 3 } ] },
+    { "roleId": "G7", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "junior-technical-support", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "junior-computer-technician", "readyAfterLevel": 1, "priority": 2 } ] },
+    { "roleId": "G8", "match": "direct", "verified": false, "schemes": [
+      { "schemeId": "system-administrator", "readyAfterLevel": 1, "priority": 1 },
+      { "schemeId": "klaster-infrastruktur-e-government", "readyAfterLevel": 2, "priority": 1 } ] }
+  ]
+}
